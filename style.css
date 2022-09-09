@@ -1,0 +1,98 @@
+body {
+    height: 1000px;
+    background-color: lightgray;
+    }
+
+.box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: #3E3E3E;
+    background-color: rgb(74,170,165);
+  }
+
+.navbar {
+    font-size: 20px;
+    max-height: 50px;
+    background-color: rgb(255, 255, 255);
+  }  
+
+.navigation .navbar-brand {
+    color: #3E3E3E;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(74,170,165);
+    font-family: Arial;
+  }
+
+.nav-link{
+    color: #3E3E3E;
+  }
+
+.active, .dropdown-menu .dropdown-item:active, a:hover {
+    background-color: rgb(74,170,165);
+    color: #3E3E3E;
+  }
+
+.dropdown-item {
+    color: rgba(74,170,165);
+  }
+
+a {
+    color: rgb(12, 0, 0);
+    font-size: 18px;
+  }
+
+img{
+    width:100%;
+    height:100%;
+    margin-bottom: 10px;
+  }
+
+.active, .panel:hover {
+    border-color:#3E3E3E;
+    border-style: solid;
+    
+  }
+
+.vizualization {
+    width:60%;
+    height:60%;
+  }
+
+.navbar-collapse{
+    float:right;
+  }
+
+.title {
+    font-weight: 600;
+  }
+
+
+
+
+
+@media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: rgb(74,170,165);
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: rgb(131, 108, 235);
+    }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+  }
